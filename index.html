@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/nuevo-logo de aon.jpg">
+    <title>Army of Nix | Cyber Defense Terminal Comunity Open Source </title>
+        <link rel="stylesheet" href="/css/style.css">
+            <link rel="icon" type="image/png" href="/img/nuevo-logo-de-aon.jpg">
+
+        <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+        <link href="https://googleapis.com" rel="stylesheet">
+        <canvas id="cyber-matrix-canvas"></canvas>
+        <!--
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        -->
+</head>
+<body>
+    
+    <div class="content-wrapper">
+        <header class="site-header">
+            <div class="logo" style="display: flex; align-items: center; gap: 10px;">
+            <a href="index.html">
+            <img src="/img/nuevo-logo-de-aon.jpg" alt="Army of Nix Logo" style="height: 32px; width: auto;"></a>
+            <div class="logo">ARMY OF <span>NIX</span>
+            </div>
+            <div class="header-right">
+                <span class="security-badge">OPEN SOURCE 🔒 SECURE ENCRYPTED NODE</span>
+            </div>
+            <!-- Navigation Menu , Menu principal de navegacion a otras ventanas -->
+        
+            <!-- Selector de Idioma -->
+<div id="google_translate_element" class="lang-selector"></div>
+            <div class="header-right">
+        <nav class="menu">
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="services.html">Services for free</a>
+                <a href="events.html">Events</a>
+                <a href="contact.html">Contact</a>
+                <a href="tools.html">Tools</a>
+                <a href="about_us.html">About us</a>
+            </ul>
+        </nav>
+</div>
+        </header>
+
+<!-- Hero Section with Background Image -->
+ <!-- 
+ <section class="hero-section">
+            <img src="Logo-central_Nero.jpeg" alt="imagen de fondo"
+            style="position: absolute; top: 1; left: ; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+        </section>  
+    -->
+        <!-- Hero Section with Background Image -->
+        <section class="hero-section">
+            <h1>ARMY OF NIX</h1>
+            <p class="hero-subtitle">COMMUNITY OPEN SOURCE CYBER DEFENSE TERMINAL</p>
+        </section>  
+
+        <section class="interactive-box HUD-frame">
+            <div class="hud-corner top-left"></div><div class="hud-corner top-right"></div>
+            
+            <div id="step-init" class="step-content active">
+                <h1>Enterprise-Grade Security.<br>Tailored For Modern Infrastructures.</h1>
+                <p class="subtitle">Direct, transparent defense engineering without corporate jargon. Assess your structural risk level instantly for free.</p>
+                
+                <div class="scanner-input-group">
+                    <div class="input-wrapper">
+                        <span class="prompt-symbol">#_</span>
+                        <input type="text" id="target-input" placeholder="Enter corporate domain or business email..." autocomplete="off">
+                    </div>
+                    <button id="btn-start-scan">EVALUATE SECURITY RISK ➔</button>
+                </div>
+                
+                <div class="scroll-indicator">
+                    <span>Core Capabilities ↓</span>
+                </div>
+            </div>
+
+            <div id="step-scanning" class="step-content" style="display:none;">
+                <h3>Analyzing digital perimeter...</h3>
+                <div class="terminal-console">
+                    <p class="line text-green" id="log-1"></p>
+                    <p class="line text-dim" id="log-2"></p>
+                    <p class="line text-alert" id="log-3"></p>
+                    <div class="code-stream-box" id="code-stream"></div>
+                    <div class="spinner"></div>
+                </div>
+            </div>
+
+            <div id="step-result" class="step-content" style="display:none;">
+                <div class="alert-box">
+                    <span class="alert-icon">⚠️</span>
+                    <div>
+                        <h4>Preliminary diagnostic completed</h4>
+                        <p>Anomalous activity signatures and critical entry exposure vectors have been identified on the verified endpoint perimeter.</p>
+                    </div>
+                </div>
+
+                <p class="form-instruction">Provide your direct professional credentials to establish a secure, out-of-band communication channel and receive the mitigation plan.</p>
+                
+                <form id="lead-form" class="secure-form">
+                    <input type="text" id="client-name" placeholder="Your Name" required>
+                    <input type="email" id="client-email" placeholder="Corporate Email Address" required>
+                    <button type="submit" class="btn-submit">Reque-st Mitigation Report 🔒</button>
+                </form>
+            </div>
+
+            <div id="step-success" class="step-content" style="display:none;">
+                <div class="success-icon">✓</div>
+                <h2>Secure Channel Active</h2>
+                <p>Your handshake packet was encrypted successfully. One of our 4 defensive engineering specialists is manually reviewing your telemetry on high priority.</p>
+                <p class="footer-note">We will contact you shortly via the provided encrypted metadata, peer-to-peer.</p>
+            </div>
+            
+            <div class="hud-corner bottom-left"></div><div class="hud-corner bottom-right"></div>
+        </section>
+
+        <section class="services-section">
+            <div class="services-header">
+                <h2>CORE DEFENSE LINES // INFRASTRUCTURE OPERATIONS</h2>
+                <p class="services-subtitle">Offensive intelligence and defensive engineering modules built to harden corporate assets.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card HUD-frame">
+                    <div class="code-decoration-bg">
+                        <pre><code>function check(auth) {<br> if(!auth.valid) <br>  throw SecurityError();<br>}</code></pre>
+                    </div>
+                    <div class="card-inner-content">
+                        <div class="service-icon">🔍</div>
+                        <h3>Source Code Auditing</h3>
+                        <p>We perform rigorous deep-code analysis to catch logical vulnerabilities and software flaws before they ever build to production nodes.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card HUD-frame">
+                    <div class="code-decoration-bg">
+                        <pre><code>[TARGET: HUMAN]<br>PHISHING_SIM = true<br>TRAINING_STATUS: OK</code></pre>
+                    </div>
+                    <div class="card-inner-content">
+                        <div class="service-icon">👨‍💻</div>
+                        <h3>Threat Awareness Training</h3>
+                        <p>We run adaptive social engineering simulations to train human defenses against modern social manipulation tactics and phishing attacks.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card HUD-frame">
+                    <div class="code-decoration-bg">
+                        <pre><code>POLICY: ENFORCE_MFA<br>AUDIT_LOGS: CAPTURED<br>COMPLIANCE_ID: 256</code></pre>
+                    </div>
+                    <div class="card-inner-content">
+                        <div class="service-icon">🛡️</div>
+                        <h3>Strategic Advisory</h3>
+                        <p>Continuous operational consulting. We draft tactical incident response manuals and solidify IT compliance under ironclad policies.</p>
+                </div>
+                </div>
+                
+                <div class="service-card HUD-frame">
+                    <div class="code-decoration-bg">
+                        <pre><code>NMAP -sV -T4 exploit/<br>PAYLOAD_LEN: 1024<br>SHELL: INITIALIZED</code></pre>
+                    </div>
+                    <div class="card-inner-content">
+                        <div class="service-icon">⚡</div>
+                        <h3>Ethical Hacking</h3>
+                        <p>Controlled multi-vector pentesting exercises. We actively exploit and assault your infrastructure using identical tactics as authentic threat adversaries.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="events-section HUD-frame">
+    <!-- Esquinas HUD Estilo Táctico -->
+    <div class="hud-corner top-left"></div>
+    <div class="hud-corner top-right"></div>
+    <div class="hud-corner bottom-left"></div>
+    <div class="hud-corner bottom-right"></div>
+
+    <h1 class="events-title">OPERATION CHRONOGRAM</h1>
+    <p class="events-description">Upcoming cyber defense briefings, CTF competitions, and open-source workshops.</p>
+
+    <!-- Cronograma / Timeline -->
+    <div class="timeline">
+
+        <!-- Evento 1 -->
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">SEP 25, 2026 // 18:00 UTC</div>
+            <div class="timeline-content">
+                <h3>> CTF COMPETITION FLUID ATTACKS</h3>
+                <p>Join the CTF competition and test your skills against real-world scenarios.</p>
+                <span class="event-badge badge-live">COMPETITION</span>
+                <a class="links" href="https://fluidattacks.com/ctf" target="_blank">Click Join the CTF</a>
+            </div>
+        </div>
+
+        <!-- Evento 2 -->
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">NOV 05, 2026 // 14:00 UTC</div>
+            <div class="timeline-content">
+                <h3>>CTF COMPETITION Univerisdad de Antioquia</h3>
+                <p>Join the CTF competition and test your skills against real-world scenarios.</p>
+                <span class="event-badge badge-upcoming">COMPETITION</span>
+                <a class="links" href="#more info" target="_blank">Very soon</a>
+            </div>
+        </div>
+
+        <!-- Evento 3 -->
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">DEC 01, 2026 // 20:00 UTC</div>
+            <div class="timeline-content">
+                <h3>PROJECTS</h3>
+                <p>Official release of our new cyber defense terminal tools and community documentation.</p>
+                <span class="event-badge badge-release">RELEASE</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        <footer>
+            <p>&copy; 2026 ARMY OF NIX. Secure. Analyze. Defend.</p>
+            <p>All rights reserved.</p>
+        </footer>
+    </div>
+
+        <script src="/js/scanner.js"></script>
+        <script src="/js/matrix.js"></script>
+        <script src="js/constelations.js"></script>
+
+
+        
+</body>
+</html>>

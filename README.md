@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/status-Active--Development-brightgreen.svg)
 ![Theme](https://img.shields.io/badge/UI--Style-Cyberpunk%20%2F%20HUD-00FF66.svg)
 
-**Army of Nix** is a Army of Nix is a cyber defense, telemetry, and information security education platform and initiative conceived locally to democratize digital hygiene and protection.
+**Army of Nix** is an cyber defense, telemetry, and information security education platform and initiative conceived locally to democratize digital hygiene and protection.
 The ecosystem integrates free-access tools and practical learning aimed at individuals, students, startups, and small to medium-sized enterprises (SMEs) that lack the resources to access traditional cyber consulting.
 
 ---

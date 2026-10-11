@@ -7,6 +7,7 @@
 **Army of Nix** is an cyber defense, telemetry, and information security education platform and initiative conceived locally to democratize digital hygiene and protection.
 The ecosystem integrates free-access tools and practical learning aimed at individuals, students, startups, and small to medium-sized enterprises (SMEs) that lack the resources to access traditional cyber consulting.
 
+Link: https://army-of-nix-gja2.vercel.app/
 ---
 
 ## 🚀 Key Features
